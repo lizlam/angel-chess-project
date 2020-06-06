@@ -34,6 +34,6 @@
 	<p>Angel Chess is a chess variation created in the early 1900's by <br /> Louis P. d'Autremont.</p>
         <img alt="Angel Chess Patent" src="angel_chess_patent.png" />
         <p>It is played on a 9x8 board with an extra pawn and Angel piece.<br />  
-          The Angel moves like a Queen and Knight with some special rules around capturing. <br />
+          The Angel moves like a Queen and Knight with some special rules around capturing. <br /><br />
           This site is dedicated to the exploration of this game. </p>
 </main>
