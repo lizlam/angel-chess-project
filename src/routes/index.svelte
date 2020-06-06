@@ -7,7 +7,7 @@
 		text-align: center;
 		padding: 1em;
 		font-size: 1.5em;
-		max-width: 540px;
+		max-width: 440px;
 		margin: 0 auto;
 	}
 
