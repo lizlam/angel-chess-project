@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "Angel Chess",
+  "description": "A site dedicated to Angel Chess",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
