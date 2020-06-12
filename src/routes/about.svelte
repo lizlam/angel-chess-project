@@ -7,12 +7,8 @@
 		text-align: center;
 		padding: 1em;
 		font-size: 1.5em;
-		max-width: 340px;
+		max-width: 440px;
 		margin: 0 auto;
-	}
-
-	li {
-		text-align: left;
 	}
 
 	h1 {
@@ -30,24 +26,17 @@
 </style>
 
 <svelte:head>
-	<title>About</title>
+	<title>Angel Chess</title>
 </svelte:head>
-<!-- Chapter 14 of Encyclopedia of Chess Variants-->
+
 <main in:fade>
 	<h1>About</h1>
-	<p>A common way to enhance the traditonal game of chess is by adding more powerful pieces to the board we are all so familiar with. 
+	<p>Most of what know about Angel Chess is from Louis P. d'Autremont's <a href="angel_chess_patent_v1.pdf">patent</a>.</p>
+        <img alt="Angel Chess Patent" src="patent_page1.png" />
+       
+        <p>Angel Chess also makes a small appearance in Chapter 14 of The Classified Enclopedia of Chess 
+        Variants by David Pritchard.  The book is now out of print but is available in PDF form on
+        <a href="http://www.jsbeasley.co.uk/">John and Sue Beasley's Website</a>. </p>
 
-	Angel Chess is played on a 9x8 board and adds a powerful Angel piece with the combination move of a Queen and a Knight.  There is also an additional
-	pawn that stands "guard" in front of it as well.<br /><br /> Most rules of the basic game applies with the following differences:
-    </p>
-    <ul>
-       <li>The Angel piece sits to the right of the King.</li>
-	   <li>Pawn promotion to Angel on e-file only. (the King's lane)</li>
-	   <li>When Queen castling, the King goes to the Knight's square.</li>
-	   <li>When King castling, the King goes to the Bishop's square.</li>
-       <li>You can not capture the opposing side's Angel if your Angel piece will be captured on the following move. (No Angel for Angel sacrifice)</li>
-	   <li>Supplementary: The Angel piece can not check from a square where it can be taken by any piece except the King.</li>
-	</ul>
-
-	
-</main>
+        <img alt="Encyclopedia excerpt" width="300" src="angel_chess_encyc_entry.png" />
+</main>      
