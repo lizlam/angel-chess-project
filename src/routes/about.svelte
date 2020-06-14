@@ -7,7 +7,7 @@
 		text-align: center;
 		padding: 1em;
 		font-size: 1.5em;
-		max-width: 440px;
+		max-width: 940px;
 		margin: 0 auto;
 	}
 
@@ -17,6 +17,19 @@
 		font-size: 4em;
 		font-weight: 100;
 	}
+
+        .container {
+	  display: grid;
+          width: 1000px;
+          text-align: left;
+          grid-template-columns: 570px  1fr;
+          grid-gap: 20px;
+        }
+
+        img {
+          border: 1px solid lightgrey;
+          border-radius: 5px;
+        }
 
 	@media (min-width: 640px) {
 		main {
@@ -31,12 +44,14 @@
 
 <main in:fade>
 	<h1>About</h1>
-	<p>Most of what know about Angel Chess is from Louis P. d'Autremont's <a href="angel_chess_patent_v1.pdf">patent</a>.</p>
+        <div class="container">
         <img alt="Angel Chess Patent" src="patent_page1.png" />
-       
-        <p>Angel Chess also makes a small appearance in Chapter 14 of The Classified Enclopedia of Chess 
-        Variants by David Pritchard.  The book is now out of print but is available in PDF form on
-        <a href="http://www.jsbeasley.co.uk/">John and Sue Beasley's Website</a>. </p>
+	<p>Most of what know about Angel Chess is from Louis P. d'Autremont's <a href="angel_chess_patent_v1.pdf">patent</a>.  Among other things stated in the patent, his aim was to improve the game of chess by reaching
+the "thick of the game" more quickly.  This would seem to coincide with the mobilization phase that basically starts the game 20 moves in.  He also wanted a game where the stronger player was able to defeat the weaker player more quickly.  Having an extremely powerful piece like the "destroying angel" would certainly contribute to this goal.  The patent has good insight on what motivated Louis P. d'Autremont to create this game and I would recommend to anyone interested to give it a read. </p>
 
+        <p>Angel Chess also makes a small appearance in Chapter 14 of The Classified Encyclopedia of Chess 
+        Variants by David Pritchard. The book is out of print but available in PDF form on
+        <a href="http://www.jsbeasley.co.uk/">John and Sue Beasley's Website</a>. There seems to be a small descrepancy where Pritchard dates the game to 1918 in oppose to the patent date of 1915.  It's hard to say why without the leaflet or the British Chess Magazine referred to.</p>
         <img alt="Encyclopedia excerpt" width="300" src="angel_chess_encyc_entry.png" />
+      </div>
 </main>      
