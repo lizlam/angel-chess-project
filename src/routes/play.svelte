@@ -62,6 +62,5 @@
 	    <img alt="9x8 board" width="300" src="pieces-styled.png" />
           <div>
         </div>
-<p>Note: The downloads for the pieces contain extra pawns and bishops for playing other chess variations.</p>
 	
 </main>
