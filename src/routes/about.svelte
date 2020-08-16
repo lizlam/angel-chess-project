@@ -45,7 +45,7 @@
   img.image3 {
     border: 1px solid lightgrey;
     border-radius: 5px;
-    grid-area: image2;
+    grid-area: image3;
   }
 
   p.desc1 {
