@@ -105,7 +105,7 @@
       book is out of print but available in PDF form on
       <a href="http://www.jsbeasley.co.uk/">John and Sue Beasley's Website</a>
       . There seems to be a small descrepancy where Pritchard dates the game to
-      1918 in oppose to the patent date of 1915. It's hard to say why without
+      1918 as oppose to the patent date of 1915. It's hard to say why without
       the leaflet or the British Chess Magazine referred to.
     </p>
     <img
